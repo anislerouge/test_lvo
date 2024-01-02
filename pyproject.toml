@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "test_lvo"
+version = "0.1.0"
+description = ""
+authors = ["anislerouge <anislerouge@gmail.com>"]
+readme = "README.md"
+packages = [{include = "test_lvo"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.1.4"
+jupyterlab = "^4.0.9"
+matplotlib = "^3.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
